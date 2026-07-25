@@ -1,0 +1,10 @@
+{
+  "version": "4.6.8",
+  "date": "2026-07-23",
+  "notes": "AI 小说工坊 v4.6.8",
+  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.6.8/ai-novel-writer-update-v4.6.8.zip",
+  "changelog": [
+    { "version": "4.6.8", "date": "2026-07-23", "changes": ["新图标与自定义标题栏", "过朱雀AI引擎增强", "更新源切换 GitHub"] }
+  ],
+  "forceUpdate": false
+}
