@@ -1,18 +1,7 @@
 {
-  "version": "4.6.9",
-  "date": "2026-07-27",
-  "notes": "激活码改为云端校验，一码全网只能用一次；过朱雀AI排版修复",
-  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.6.9/ai-novel-writer-update-v4.6.9.zip",
-  "changelog": [
-    {
-      "version": "4.6.9",
-      "date": "2026-07-27",
-      "changes": [
-        "激活码改为云端统一校验",
-        "取消新用户白送额度，需用激活码兑换",
-        "修复过朱雀AI（去AI味）替换后排版丢失的问题"
-      ]
-    }
-  ],
+  "version": "4.7.1",
+  "date": "2026-07-28",
+  "notes": "后台静默更新+国内加速下载；云端激活体系",
+  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.7.1/ai-novel-writer-update-v4.7.1.zip",
   "forceUpdate": false
 }
