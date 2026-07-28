@@ -1,7 +1,7 @@
 {
-  "version": "4.7.1",
+  "version": "4.7.2",
   "date": "2026-07-28",
-  "notes": "后台静默更新+国内加速下载；云端激活体系",
-  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.7.1/ai-novel-writer-update-v4.7.1.zip",
+  "notes": "修复云端激活地址；线路3新增 deepseek-v4-flash；后台静默更新+国内加速",
+  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.7.2/ai-novel-writer-update-v4.7.2.zip",
   "forceUpdate": false
 }
