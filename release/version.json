@@ -1,1 +1,19 @@
-update release metadata to v4.7.3
+{
+  "version": "4.7.3",
+  "date": "2026-07-29",
+  "notes": "五套创作框架独立运行；修复批量写文、批量大纲与主角姓名错误",
+  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.7.3/ai-novel-writer-update-v4.7.3.zip",
+  "changelog": [
+    {
+      "version": "4.7.3",
+      "date": "2026-07-29",
+      "changes": [
+        "长篇、短篇、同人、仿写、OC 文的写章、大纲和书名简介使用五套独立框架",
+        "修复批量写文生成后正文未即时显示",
+        "修复批量大纲生成失败、令牌数过高与线路回退问题",
+        "主角姓名从小说简介提取并锁定到角色、大纲、正文、续写和重写",
+      ]
+    }
+  ],
+  "forceUpdate": false
+}
