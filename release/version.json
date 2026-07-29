@@ -1,18 +1,18 @@
 {
-  "version": "4.7.3",
+  "version": "4.7.4",
   "date": "2026-07-29",
-  "notes": "五套创作框架独立运行；修复批量写文、批量大纲与主角姓名错误",
-  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.7.3/ai-novel-writer-update-v4.7.3.zip",
+  "notes": "激活码改为纯云端校验；比喻纪律禁止出戏类比与滥用「像」",
+  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.7.4/ai-novel-writer-update-v4.7.4.zip",
   "changelog": [
     {
-      "version": "4.7.3",
+      "version": "4.7.4",
       "date": "2026-07-29",
       "changes": [
-        "长篇、短篇、同人、仿写、OC 文的写章、大纲和书名简介使用五套独立框架",
-        "修复批量写文生成后正文未即时显示",
-        "修复批量大纲生成失败、令牌数过高与线路回退问题",
-        "主角姓名从小说简介提取并锁定到角色、大纲、正文、续写和重写",
-        "发布包不包含用户数据库、VIP 或激活状态"
+        "移除随包分发的明文激活码，卡密改为完全云端校验",
+        "新增比喻纪律：禁止程序员、bug、代码、刷新等现代科技类出戏比喻",
+        "限制「像……一样」「仿佛」「好似」句式，改用身体反应、具体动作、对话与环境侧写",
+        "禁止直接写「她很冷静」这类情绪标签，要求以行为呈现",
+        "比喻纪律已接入批量写文、单章重写与续写"
       ]
     }
   ],
