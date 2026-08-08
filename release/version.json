@@ -1,21 +1,16 @@
 {
-  "version": "4.9.2",
+  "version": "4.9.3",
   "date": "2026-08-09",
-  "notes": "AI Novel Writer v4.9.2",
-  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.9.2/ai-novel-writer-update-v4.9.2.zip",
+  "notes": "完善漫剧15秒连续分镜、章节编号和人物说话一致性。",
+  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.9.3/ai-novel-writer-update-v4.9.3.zip",
   "changelog": [
     {
-      "version": "4.9.2",
+      "version": "4.9.3",
       "date": "2026-08-09",
       "changes": [
-        "v4.9.2 更新"
-      ]
-    },
-    {
-      "version": "4.9.1",
-      "date": "2026-08-08",
-      "changes": [
-        "v4.9.1 更新"
+        "漫剧分镜提示词改为15秒连续动作结构，补充起始、过程、结束和微动作描述",
+        "修复小说第一章被显示为第二章的章节编号偏移问题",
+        "修复漫剧删除选中、转场衔接、人物一致性和有台词镜头不说话问题"
       ]
     }
   ],
