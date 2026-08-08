@@ -1,17 +1,19 @@
 {
-  "version": "4.9.0",
+  "version": "4.9.1",
   "date": "2026-08-08",
-  "notes": "漫画与漫剧按小说章节独立保存成品，切换章节只查看当前章数据；生图接口兼容修复。",
-  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.9.0/ai-novel-writer-update-v4.9.0.zip",
+  "notes": "漫剧/漫画新增成品Tab入口；修复Ollama流式解析丢内容、全流程跳过配音、AI痕迹清理误删等问题。",
+  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.9.1/ai-novel-writer-update-v4.9.1.zip",
   "changelog": [
     {
-      "version": "4.9.0",
+      "version": "4.9.1",
       "date": "2026-08-08",
       "changes": [
-        "漫剧成品按小说章节独立归档：第1章、第2章分别保存自己的分镜、视频、配音和成片，切换章节只显示当前章节数据，不再混章或覆盖",
-        "漫剧章节选择器直接使用小说章节编号，生成第几章就保存到对应章节成品记录",
-        "漫画继续按小说 chapterId 独立保存分格、图片和章节成品，章节之间互不覆盖",
-        "生图接口保留原有调用方式，仅在明确遇到 image_generation 工具协议错误时兼容尝试备用接口"
+        "漫剧Tab栏设置旁新增「🎬 成品」入口，按章节切换查看每章分镜、视频、配音和成片",
+        "漫画「📖 成品」入口移到设置旁边，与漫剧保持一致",
+        "修复Ollama本地模型流式生成时跨chunk的JSON行被静默丢弃导致正文随机丢字的致命问题",
+        "修复全流程关闭视频时提前return跳过独立配音阶段的问题，视频/配音/成片可分别勾选",
+        "修复批量写文AI痕迹清理把「不由得」直接删除导致语义改变的问题，改为替换为「不禁」",
+        "修复审查功能错误信息乱码（瀹℃煡澶辫触→审查失败）和重复乱码注释"
       ]
     }
   ],
