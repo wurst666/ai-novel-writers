@@ -1,16 +1,19 @@
 {
-  "version": "4.9.3",
+  "version": "4.9.4",
   "date": "2026-08-09",
-  "notes": "完善漫剧15秒连续分镜、章节编号和人物说话一致性。",
-  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.9.3/ai-novel-writer-update-v4.9.3.zip",
+  "notes": "新增本机LoRA文风训练与Ollama导入；修复批量删除、视频查询限流和章节字数失控。",
+  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.9.4/ai-novel-writer-update-v4.9.4.zip",
   "changelog": [
     {
-      "version": "4.9.3",
+      "version": "4.9.4",
       "date": "2026-08-09",
       "changes": [
-        "漫剧分镜提示词改为15秒连续动作结构，补充起始、过程、结束和微动作描述",
-        "修复小说第一章被显示为第二章的章节编号偏移问题",
-        "修复漫剧删除选中、转场衔接、人物一致性和有台词镜头不说话问题"
+        "新增本机CUDA QLoRA文风训练、训练集导出、日志和每本小说独立适配器",
+        "训练适配器可手动合并、转换并导入Ollama使用",
+        "修复漫画和漫剧批量删除确认框无法实际删除的问题",
+        "Agnes视频状态查询429时自动限速重试",
+        "批量写文强制控制在2000至3000字，不足自动续写，超长自动完整段落收尾",
+        "本地Ollama模型与API统一温度和最大输出参数"
       ]
     }
   ],
