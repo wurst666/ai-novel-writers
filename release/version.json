@@ -1,9 +1,19 @@
 {
-  "version": "4.9.4",
+  "version": "4.9.5",
   "date": "2026-08-09",
-  "notes": "新增本机LoRA文风训练与Ollama导入；修复批量删除、视频查询限流和章节字数失控。",
-  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.9.4/ai-novel-writer-update-v4.9.4.zip",
+  "notes": "扩充漫剧与漫画画风；新增画风预览、一键生成角色场景定妆图和增强角色提示词。",
+  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.9.5/ai-novel-writer-update-v4.9.5.zip",
   "changelog": [
+    {
+      "version": "4.9.5",
+      "date": "2026-08-09",
+      "changes": [
+        "漫剧和漫画画风扩充至20种以上，并保留旧项目画风兼容",
+        "新增画风预览图，按当前画风懒加载展示",
+        "新增漫剧一键生成全部角色定妆图和场景定妆图，支持进度、跳过已有资源和取消",
+        "增强角色定妆图提示词，加入多视角、五官、发型、服装和一致性约束"
+      ]
+    },
     {
       "version": "4.9.4",
       "date": "2026-08-09",
