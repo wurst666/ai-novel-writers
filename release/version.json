@@ -1,9 +1,17 @@
 {
-  "version": "4.9.5",
+  "version": "4.9.6",
   "date": "2026-08-09",
-  "notes": "扩充漫剧与漫画画风；新增画风预览、一键生成角色场景定妆图和增强角色提示词。",
-  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.9.5/ai-novel-writer-update-v4.9.5.zip",
+  "notes": "新增项目图片本地资源保存，修复漫画和漫剧图片丢失与破图问题。",
+  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v4.9.6/ai-novel-writer-update-v4.9.6.zip",
   "changelog": [
+    {
+      "version": "4.9.6",
+      "date": "2026-08-09",
+      "changes": [
+        "新增项目图片本地资源保存，生成图片按项目、角色、场景和漫画分格分类",
+        "修复漫画和漫剧图片加载失败、场景图片字段映射和失效图片无法重绘问题"
+      ]
+    },
     {
       "version": "4.9.5",
       "date": "2026-08-09",
@@ -28,4 +36,4 @@
     }
   ],
   "forceUpdate": false
-}
+} 
