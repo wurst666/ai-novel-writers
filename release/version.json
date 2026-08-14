@@ -1,9 +1,18 @@
 {
-  "version": "5.0.5",
+  "version": "5.0.6",
   "date": "2026-08-14",
-  "notes": "AI Novel Writer v5.0.5",
-  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v5.0.5/ai-novel-writer-update-v5.0.5.zip",
+  "notes": "AI Novel Writer v5.0.6",
+  "downloadUrl": "https://github.com/wurst666/ai-novel-writers/releases/download/v5.0.6/ai-novel-writer-update-v5.0.6.zip",
   "changelog": [
+    {
+      "version": "5.0.6",
+      "date": "2026-08-14",
+      "changes": [
+        "新增漫剧工作流系统：类似 ComfyUI 的可视化节点图，支持 14 种节点类型（剧本拆分、生图、生视频、合成等），内置 4 个工作流模板",
+        "AI 配置重构：生图和视频 API 配置搬到【AI 配置】页面，所有用户可访问，支持 OpenAI 兼容接口格式",
+        "管理员后台精简：清理所有 API 配置相关内容，只保留数据管理功能（重置激活、清空数据、数据库信息）"
+      ]
+    },
     {
       "version": "5.0.5",
       "date": "2026-08-14",
@@ -18,13 +27,6 @@
         "生成视频时会按镜头朝向自动挑参考图：背对镜头用背面图、侧身用侧面图，其余用正面图，减少人物朝向和画面描述打架",
         "三视图拼图只用于看图核对，不会拿去当视频首帧参考图（拼图里有三个人形，会让视频生出并排重复的人）",
         "小空形象按设定图重画：奶白短发、浅蓝猫耳兜帽斗篷、酒红大眼、粉色爱心徽章、奶白长袜与猫尾巴，眨眼、说话、摆尾、呆毛摆动等动效保持不变"
-      ]
-    },
-    {
-      "version": "5.0.6",
-      "date": "2026-08-14",
-      "changes": [
-        "v5.0.6 更新"
       ]
     }
   ],
